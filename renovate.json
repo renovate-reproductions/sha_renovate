@@ -6,7 +6,7 @@
     {
       "fileMatch": ["^.sha.txt$"],
       "currentValueTemplate": "c9s",
-      "matchStrings": ["(?<currentDigest>.*?)"],
+      "matchStrings": ["^(?<currentDigest>.*)(\n|$)"],
       "depNameTemplate": "redhat/centos-stream/rpms/man-pages",
       "registryUrlTemplate": "https://gitlab.com",
       "datasourceTemplate": "gitlab-tags"
